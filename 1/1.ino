@@ -28,5 +28,7 @@ void loop() {
   Serial.print("Температура: ");
   Serial.print(t);
   Serial.println(" *C "); //Вывод показателей на экран
-  mySerial.println(t);
+  mySerial.print(t);
+  mySerial.print("A");
+  mySerial.println(h);
 }
