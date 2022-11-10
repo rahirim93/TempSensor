@@ -1,6 +1,7 @@
 #include <SoftwareSerial.h>
 
 SoftwareSerial mySerial(2, 3); // указываем пины rx и tx соответственно
+//RX на модуле блютуз на пин 3, ТХ на пин 2
 
 #include "DHT.h"
 #define DHTPIN 7 // Тот самый номер пина, о котором упоминалось выше
